@@ -8,7 +8,7 @@ import HomeStack from './HomeStack';
 
 const Tab = createBottomTabNavigator();
 
-export function Navigation() {
+export default function Navigation() {
     return(
         <Tab.Navigator>
             {/* <Tab.Screen name = "home" component={Home} options={{title: 'Home'}}/> */}
